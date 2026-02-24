@@ -75,7 +75,7 @@ public class KimiPluginPreference implements PluginPreference {
 
         builder.addHeader("高级设置");
 
-        List temperatureList = builder.addList("温度参数", "temperature")
+        List temperatureList = builder.addList("Temperature参数", "temperature")
             .summary("控制翻译的创造性，值越低越保守准确");
 
         for (String temp : TEMPERATURE_OPTIONS) {
