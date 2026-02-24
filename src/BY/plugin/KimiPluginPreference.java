@@ -99,11 +99,12 @@ public class KimiPluginPreference implements PluginPreference {
 
         builder.addHeader("关于");
 
-        builder.addText("插件版本")
-            .summary("v1.0");
+        builder.addText("Github详情")
+            .summary("点击跳转")
+            .url("https://github.com/ZZPBY/MT-KimiTranslationEngine");
 
         builder.addText("官方文档")
-            .summary("查看Kimi API文档")
+            .summary("点击查看Kimi API文档")
             .url("https://platform.moonshot.cn/docs");
 
         builder.addText("使用说明")
