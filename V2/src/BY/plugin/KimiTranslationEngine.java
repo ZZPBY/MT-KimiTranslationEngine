@@ -17,7 +17,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import bin.mt.plugin.api.translation.BaseTranslationEngine;
 
-public class KimiTranslationEngine extends BaseTranslationEngine {
+公共 class KimiTranslationEngine extends BaseTranslationEngine {
 
     private static final String API_BASE_URL = "https://api.moonshot.cn/v1/chat/completions";
     private static final String DEFAULT_MODEL = "kimi-k2-turbo-preview";
