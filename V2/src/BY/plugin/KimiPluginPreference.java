@@ -4,7 +4,7 @@ import android.content.SharedPreferences;
 import bin.mt.plugin.api.MTPluginContext;
 import bin.mt.plugin.api.preference.PluginPreference;
 
-public class KimiPluginPreference implements PluginPreference {
+公共 class KimiPluginPreference implements PluginPreference {
 
     private static final String[] MODEL_OPTIONS = {
         "kimi-k2-turbo-preview",
@@ -45,9 +45,9 @@ public class KimiPluginPreference implements PluginPreference {
         builder.addHeader("API设置");
 
         builder.addInput("API Key", "api_key")
-            .summary("请输入从Kimi开放平台获取的API Key")
-            .defaultValue("")
-            .validator(new Input.Validator() {
+            。summary("请输入从Kimi开放平台获取的API Key")
+            。defaultValue("")
+            。validator(new Input.Validator() {
                 @Override
                 public String validate(String value) {
                     if (value == null || value.trim().isEmpty()) {
@@ -61,13 +61,13 @@ public class KimiPluginPreference implements PluginPreference {
             });
 
         builder.addText("获取API Key")
-            .summary("点击前往Kimi开放平台获取API Key")
-            .url("https://platform.moonshot.cn/console");
+            。summary("点击前往Kimi开放平台获取API Key")
+            。url("https://platform.moonshot.cn/console");
 
         builder.addHeader("模型设置");
 
         List modelList = builder.addList("选择模型", "model")
-            .summary("选择要使用的Kimi模型");
+            。summary("选择要使用的Kimi模型");
 
         for (int i = 0; i < MODEL_OPTIONS.length; i++) {
             modelList.addItem(MODEL_DISPLAY_NAMES[i], MODEL_OPTIONS[i]);
@@ -76,7 +76,7 @@ public class KimiPluginPreference implements PluginPreference {
         builder.addHeader("高级设置");
 
         List temperatureList = builder.addList("温度参数", "temperature")
-            .summary("控制翻译的创造性，值越低越保守准确");
+            。summary("控制翻译的创造性，值越低越保守准确");
 
         for (String temp : TEMPERATURE_OPTIONS) {
             String label = temp;
@@ -87,7 +87,7 @@ public class KimiPluginPreference implements PluginPreference {
         }
 
         List maxTokensList = builder.addList("最大Token数", "max_tokens")
-            .summary("限制单次翻译的最大输出长度");
+            。summary("限制单次翻译的最大输出长度");
 
         for (String tokens : MAX_TOKENS_OPTIONS) {
             String label = tokens;
@@ -100,12 +100,12 @@ public class KimiPluginPreference implements PluginPreference {
         builder.addHeader("关于");
 
         builder.addText("Github详情")
-           .summary("点击跳转")
-            .url("https://github.com/ZZPBY/MT-KimiTranslationEngine");
+           。summary("点击跳转")
+            。url("https://github.com/ZZPBY/MT-KimiTranslationEngine");
         
         builder.addText("官方文档")
-            .summary("点击查看Kimi API文档")
-            .url("https://platform.moonshot.cn/docs");
+            。summary("点击查看Kimi API文档")
+            。url("https://platform.moonshot.cn/docs");
 
         builder.addText("使用说明")
             .summary("1. 先在Kimi开放平台注册账号并获取API Key\n" +
