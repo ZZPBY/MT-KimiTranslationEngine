@@ -1,0 +1,19 @@
+plugin_name: Kimi Translator
+plugin_description: Uses the Kimi Chat API for translation. You need to provide your own API Key.(Support for Kimi API based on the official DeepSeek plugin modification.Currently only kimi-k2-turbo-preview is supported，Tam is 0.3)
+
+reg_url: API Key URL
+reg_url_summary: Create and manage your API Key here: https://platform.moonshot.cn/
+
+ds_api_key_summary: Kimi API Key
+ds_api_key_empty: API Key is empty. Please set your API Key in plugin settings.
+ds_api_key: API Key
+
+ds_test_title: Translation Test
+ds_test_summary: Fill in API Key and click to verify availability
+ds_test_loading: Testing...
+ds_test_success: Test succeeded, translation result: 
+ds_test_failed: Test failed: 
+ds_test_empty_result: Test failed: Empty translation result
+
+notice_title: Github Details 
+notice_summary: click to jump

@@ -1,0 +1,19 @@
+plugin_name: Kimi 翻译
+plugin_description: 使用 kimi API 进行翻译，需要自行填写 API Key。（基于官方 DeepSeek 插件修改，实现对 Kimi API 的支持。目前仅支持kimi-k2-turbo-preview，Tem为0.3）
+
+reg_url: 申请地址
+reg_url_summary: 在此创建和管理 API Key：https://platform.moonshot.cn/
+
+ds_api_key_summary: Kimi API Key
+ds_api_key_empty: API Key 为空，请先在插件设置中填写 API Key！
+ds_api_key: API Key
+
+ds_test_title: 翻译测试
+ds_test_summary: 填写 API Key 后点击测试可用性
+ds_test_loading: 正在测试...
+ds_test_success: 测试成功，翻译结果：
+ds_test_failed: 测试失败：
+ds_test_empty_result: 测试失败：翻译结果为空
+
+notice_title: Github详情
+notice_summary: 点击跳转
