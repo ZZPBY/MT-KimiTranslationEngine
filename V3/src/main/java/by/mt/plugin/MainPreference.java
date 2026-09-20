@@ -82,5 +82,10 @@ public class MainPreference implements PluginPreference {
         builder.addText("{kimi_github}")
                 .summary("{kimi_github_summary}")
                 .url(KimiConstant.GITHUB_URL);
+
+        // 7. 可用模型详情（点击跳转官方模型列表）
+        builder.addText("{kimi_models}")
+                .summary("{kimi_models_summary}")
+                .url(KimiConstant.KIMI_MODELS_URL);
     }
 }

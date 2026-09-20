@@ -26,3 +26,6 @@ kimi_test_loading: 正在测试...
 kimi_test_success: 测试成功，翻译结果：
 kimi_test_failed: 测试失败：
 kimi_test_empty_result: 测试失败：翻译结果为空
+
+kimi_models: 可用模型详情
+kimi_models_summary: 跳转至：https://platform.kimi.com/docs/models

@@ -26,3 +26,6 @@ kimi_test_loading: Testing...
 kimi_test_success: Test succeeded, translation result: 
 kimi_test_failed: Test failed: 
 kimi_test_empty_result: Test failed: Empty translation result
+
+kimi_models: Available Models Details
+kimi_models_summary: Jump to: https://platform.kimi.com/docs/models

@@ -34,6 +34,11 @@ public interface KimiConstant {
     String KIMI_API_KEY_URL = "https://platform.kimi.com/console/api-keys";
 
     /**
+     * 官方模型列表（含已下线模型说明）
+     */
+    String KIMI_MODELS_URL = "https://platform.kimi.com/docs/models";
+
+    /**
      * 项目主页
      */
     String GITHUB_URL = "https://github.com/ZZPBY/MT-KimiTranslationEngine";
