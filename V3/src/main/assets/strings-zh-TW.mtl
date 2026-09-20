@@ -1,0 +1,28 @@
+plugin_name: Kimi 翻譯
+plugin_description: 使用 Kimi（Moonshot AI）Chat API 進行翻譯，需要自行填寫 API Key。
+
+kimi_reg_url: 申請地址
+kimi_reg_url_summary: 在此建立和管理 API Key：https://platform.kimi.com/console/api-keys
+
+kimi_github: GitHub 詳情
+kimi_github_summary: https://github.com/ZZPBY/MT-KimiTranslationEngine
+
+kimi_api_key_summary: Kimi（Moonshot AI）API Key
+kimi_api_key_empty: API Key 為空，請先在插件設置中填寫 API Key！
+kimi_api_key: API Key
+
+kimi_model: 模型
+kimi_model_hint: 請輸入模型名稱
+kimi_model_summary: 自訂模型名稱，例如 kimi-k3、kimi-k2.6
+kimi_model_empty: 模型為空，請先在插件設置中填寫模型名稱！
+
+kimi_temperature: 溫度
+kimi_temperature_hint: 0 ~ 2，留空為模型預設
+kimi_temperature_summary: 留空則不發送 temperature 參數，跟隨模型預設值
+
+kimi_test_title: 翻譯測試
+kimi_test_summary: 填寫 API Key 與模型後點擊測試可用性
+kimi_test_loading: 正在測試...
+kimi_test_success: 測試成功，翻譯結果：
+kimi_test_failed: 測試失敗：
+kimi_test_empty_result: 測試失敗：翻譯結果為空

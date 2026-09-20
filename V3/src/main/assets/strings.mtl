@@ -1,0 +1,28 @@
+plugin_name: Kimi Translator
+plugin_description: Uses the Kimi (Moonshot AI) Chat API for translation. You need to provide your own API Key.
+
+kimi_reg_url: API Key URL
+kimi_reg_url_summary: Create and manage your API Key here: https://platform.kimi.com/console/api-keys
+
+kimi_github: GitHub
+kimi_github_summary: https://github.com/ZZPBY/MT-KimiTranslationEngine
+
+kimi_api_key_summary: Kimi (Moonshot AI) API Key
+kimi_api_key_empty: API Key is empty. Please set your API Key in plugin settings.
+kimi_api_key: API Key
+
+kimi_model: Model
+kimi_model_hint: Enter the model name
+kimi_model_summary: Custom model name, for example kimi-k3, kimi-k2.6
+kimi_model_empty: Model is empty. Please set the model name in plugin settings.
+
+kimi_temperature: Temperature
+kimi_temperature_hint: 0 to 2, leave empty for model default
+kimi_temperature_summary: Leave empty to omit the temperature parameter and use the model default
+
+kimi_test_title: Translation Test
+kimi_test_summary: Fill in API Key and model, then click to verify availability
+kimi_test_loading: Testing...
+kimi_test_success: Test succeeded, translation result: 
+kimi_test_failed: Test failed: 
+kimi_test_empty_result: Test failed: Empty translation result
