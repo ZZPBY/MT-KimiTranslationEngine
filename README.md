@@ -91,7 +91,7 @@ Kimi 官方参数表明确标注**当前模型的 `temperature` 不可修改**�
 
 ## 七、自行编译
 
-需要 Android Studio（含 Android SDK）与 JDK 17+。本模块需放在 MT 官方 `mt-plugin-v3-demo` 工程（或结构相同的工程）内，与 `translator-util` 一起参与构建：
+需要 Android Studio（含 Android SDK）与 JDK 17+。
 
 ```bash
 # 打包插件（产物：<模块目录>/build/outputs/mt-plugin/by.plugin.translator.kimi.mtp）
